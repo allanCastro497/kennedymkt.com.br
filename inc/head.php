@@ -42,10 +42,10 @@
 
 		<script>
 		$(window).bind('scroll', function () {
-			if ($(window).scrollTop() > 50) {
-			$('.menu').addClass('fixed');
+			if ($(window).scrollTop() > 30) {
+			$('.topofixo').addClass('fixed');
 			} else {
-			$('.menu').removeClass('fixed');
+			$('.topofixo').removeClass('fixed');
 			}
 		});
 		</script>
