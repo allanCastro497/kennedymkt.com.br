@@ -1,0 +1,74 @@
+* {
+	padding: 0;
+	margin: 0; 
+}
+body {
+	background: #fff;
+	color: #666;
+	font-size: 14px;
+}
+/*custom rules*/
+.font-sm {
+	font-size: 12px;
+}
+.font-md {
+	font-size: 14px;
+}
+.font-lg {
+	font-size: 18px;
+}
+.font-xl {
+	font-size: 20px;
+}
+.col-* {
+	float: left;
+}
+.fixed {
+	transition: .3s;
+	position: fixed;
+}
+/*custom rules*/
+/*Topo*/
+header {
+	height: auto;
+	border-bottom: 1px solid #e5e5e5;
+	box-sizing: border-box;
+	padding: 10px 0;
+	color: #999;
+}
+.logo {
+	width: 220px;
+	float: left;
+}
+.logo img {
+	width: 120px;
+}
+.barra-topo {
+	background: #fff;
+	border-bottom: 1px solid #e9e9e9;
+	height: 50px;
+	width: 80%;
+	line-height: 50px;
+}
+.barra-topo a {
+	color: #999;
+}
+.redes-sociais {
+	text-align: center;
+}
+.social a {
+	margin-right: 19px;
+}
+.social a:hover {
+	color: #999;
+}
+/*Fim Topo*/
+.bg-home {
+	background: url(../imagens/analisar-resultados.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.bg-darken {
+	background: rgba(0,0,0,0.4);
+	min-height: 500px;
+}
