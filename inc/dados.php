@@ -1,13 +1,13 @@
 <?php
-$nomeSite			= 'Kennedy';
-$slogan				= 'Marketing Digital para sua empresa';
-$url				= 'http://localhost/kennedymkt.com.br/';
-// $url				= 'http://mwww.kennedymkt.com.br/';
+$nomeSite			= 'Desenvolva Plus';
+$slogan				= 'Mostramos a você o melhor caminho!';
+$url				= 'http://localhost/desenvolvaplus.com.br/';
+// $url				= 'http://mwww.desenvolvaplus.com.br/';
 $ddd				= '11';
 $fone				= '96404-2424';
 // $fone2				= '2222-4444';
 // $fone3				= '2123-4444';
-$emailContato		= 'contato@kennedymkt.com.br';
+$emailContato		= 'contato@desenvolvaplus.com.br';
 $rua				= 'Travessa praia da enseada, 65';
 $bairro				= 'Casa Grande';
 $cidade				= 'Diadema';

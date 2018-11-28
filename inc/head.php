@@ -7,9 +7,16 @@
 <head>
 	<meta charset="utf-8">
 	<?php include ('inc/jquery.php');?>
-	<link rel="stylesheet" href="css/style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<link rel="stylesheet" href="<?=$url?>css/style.css">
+
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- MENU  MOBILE -->
+	<link rel="stylesheet" href="<?=$url?>css/slicknav.css" />
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+	<!-- /MENU  MOBILE -->
 
 	<title><?=$title." - ".$nomeSite?></title>
 	<base href="<?=$url?>">

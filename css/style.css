@@ -32,37 +32,33 @@ body {
 	transition: .2s;
 	box-shadow: 0px 0px 10px #444;
 }
-.navbar {
-    float: right;
+.fixed .menu2 {
+	margin: 10px 5px;
 }
 /*custom rules*/
 /*Topo*/
 header {
 	height: auto;
 	border-bottom: 1px solid #e5e5e5;
-	box-sizing: border-box;
-	padding: 10px 0;
 	color: #999;
 }
 .logo {
-	width: 220px;
-	float: left;
+	margin: 10px 0;
 }
 .logo img {
-	width: 120px;
+	width: 200px;
 }
 .barra-topo {
-	background: #fff;
-	border-bottom: 1px solid #e9e9e9;
-	height: 50px;
-	width: 80%;
-	line-height: 50px;
+	background: #ea7a37;
+	box-sizing: border-box;
+	padding: 10px 8px;
+	width: 100%;
 }
 .barra-topo a {
-	color: #999;
+	color: #fff;
 }
 .redes-sociais {
-	text-align: center;
+	text-align: right;
 }
 .social a {
 	margin-right: 19px;
@@ -80,6 +76,59 @@ header {
 	background: rgba(0,0,0,0.4);
 	min-height: 500px;
 }
+/*menu*/
+.menu2 {
+	list-style: none;
+	float: right;
+	margin: 37px 5px;
+}
+.menu2 li {
+	display: inline-block;
+	margin: 5px 16px;
+}
+.menu2 li a {
+	padding: 8px 6px;
+	color: #666;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.menu2 li a:hover {color: #ea7a37;}
+/*fim menu*/
+/*footer*/
+footer {
+	box-sizing: border-box;
+	padding: 10px 0;
+	background: #414143;
+	color: #fff;
+}
+menu-footer {
+	width: 100%;
+}
+.menu-footer ul {
+	list-style: none;
+	text-align: center;
+}
+.menu-footer ul li {
+	display: inline-block;
+}
+.menu-footer ul li a {
+	padding: 8px 10px;
+	color: #fff;
+}
+.menu-footer ul li a:hover {
+	text-decoration: none;
+	color: #999; 
+}
+.copyright-footer {
+	background: #333;
+	color: #fff;
+	box-sizing: border-box;
+	padding: 15px 0;
+	text-align: center;
+	border-top: 1px solid #565656;
+}
+/*fim footer*/
 /*mobile*/
 @media only screen and (max-width: 768px) {
 	.topofixo {
@@ -120,9 +169,23 @@ header {
 	.logo {
 		width: 100%;
 		text-align: center;
-		margin-top: 65px;
+		margin: 10px 0;
 	}
 	ul.navbar-nav {
 	    background: #fff;
+	}
+}
+.slicknav_menu {
+	display:none;
+}
+
+@media screen and (max-width: 40em) {
+	/* #menu is the original menu */
+	.js #menu2 {
+		display:none;
+	}
+	
+	.js .slicknav_menu {
+		display:block;
 	}
 }
