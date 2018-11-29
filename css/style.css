@@ -36,6 +36,12 @@ body {
 .align-text-center {
 	text-align: center;
 }
+.align-text-left {
+	text-align: left;
+}
+.align-text-right {
+	text-align: right;
+}
 /*custom rules*/
 /*Topo*/
 header {
@@ -173,6 +179,26 @@ menu-footer {
 	font-size: 12px;
 	text-align: center
 }
+.bg-crescimento {
+	background: url(../imagens/crescimento.jpg) no-repeat center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.bg-orange {
+	background: rgba(220, 82, 0, 0.8);
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column;
+	min-height: 250px;
+}
+.bg-orange h2 {
+	font-size: 45px;
+}
+.bg-orange p {
+	font-size: 22px;
+}
 
 
 /*mobile*/
@@ -235,6 +261,17 @@ menu-footer {
 	ul.navbar-nav {
 	    background: #fff;
 	}
+	.menu-footer li {
+		display: block;
+		width: 100%;
+		margin: 5px 0;
+	}
+	.menu-footer li a {
+		background: #333;
+		width: 100%;
+		display: block;
+	}
+
 }
 .slicknav_menu {
 	display:none;

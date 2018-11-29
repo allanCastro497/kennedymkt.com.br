@@ -1,7 +1,7 @@
 <?
 $h1         = 'Desenvolva plus';
 $title      = 'Desenvolva plus';
-$desc       = 'Desenvolva plus, aqui nossos foco não é postar mensagens de motivação, até por quê a motivação vem de dentro de cada um.';
+$desc       = 'Desenvolva plus, aqui nossos foco não é postar mensagens de motivação, até por quê a motivação vem de dentro de cada um, apenas mostraremos algumas verdades.';
 $key        = 'uuuuuuuuuu, jjjjjjjjjjjj, lllllllllll';
 $var        = 'Desenvolva plus';
 include('inc/head.php');
@@ -54,7 +54,13 @@ include('inc/head.php');
 	</section>
 	<section>
 		<article>
-			
+			<div class="bg-crescimento">	
+				<div class="bg-orange">
+					<h2 class="align-text-center">Invista em você!</h2>
+					<p class="align-text-center">Só existe uma forma de sucesso - Poder viver a vida do seu jeito.</p>
+					<cite class="align-text-center">Christopher Morley</cite>
+				</div>
+			</div>
 		</article>
 	</section>
 </main>
