@@ -2,7 +2,7 @@
 $nomeSite			= 'Desenvolva Plus';
 $slogan				= 'Mostramos a você o melhor caminho!';
 $url				= 'http://localhost/desenvolvaplus.com.br/';
-// $url				= 'http://mwww.desenvolvaplus.com.br/';
+// $url				= 'http://www.desenvolvaplus.com.br/';
 $ddd				= '11';
 $fone				= '96404-2424';
 // $fone2				= '2222-4444';

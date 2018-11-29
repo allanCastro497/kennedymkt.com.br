@@ -29,10 +29,10 @@
 	$(document).ready(function(){
 		$('#menu2').slicknav();
 		$('#menu2').slicknav({
-	label: '',
-	duration: 1000,
-	easingOpen: "easeOutBounce", //available with jQuery UI
-	prependTo:'#demo2'
-});
+			label: '',
+			duration: 1000,
+			easingOpen: "easeOutBounce", //available with jQuery UI
+			prependTo:'#demo2'
+		});
 	});
 </script>

@@ -20,9 +20,6 @@ body {
 .font-xl {
 	font-size: 20px;
 }
-.col-* {
-	float: left;
-}
 .fixed {
 	position: fixed;
 	top: 0;
@@ -31,9 +28,13 @@ body {
 	width: 100%;
 	transition: .2s;
 	box-shadow: 0px 0px 10px #444;
+	z-index: 999;
 }
 .fixed .menu2 {
 	margin: 10px 5px;
+}
+.align-text-center {
+	text-align: center;
 }
 /*custom rules*/
 /*Topo*/
@@ -101,6 +102,7 @@ footer {
 	padding: 10px 0;
 	background: #414143;
 	color: #fff;
+	margin-top: 15px;
 }
 menu-footer {
 	width: 100%;
@@ -129,6 +131,50 @@ menu-footer {
 	border-top: 1px solid #565656;
 }
 /*fim footer*/
+.bg-gray {
+	background: #f5f5f5;
+	box-sizing: border-box;
+	padding: 15px 0;
+}
+.thumbs {
+	width: 100%;
+	min-height: 300px;
+	background: #fff;
+	overflow: hidden;
+	border-radius: 5px 5px 0 0;
+	border: 1px solid #e9e9e9;
+}
+.thumbs img {
+	transition: .3s
+}
+.thumbs:hover img {
+	transform: scale(1.05);
+}
+.border-custom:nth-child(1) .thumbs {
+	border-top: 5px solid #EA7A37;
+}
+.border-custom:nth-child(2) .thumbs {
+	border-top: 5px solid #67ED50;
+}
+.border-custom:nth-child(3) .thumbs {
+	border-top: 5px solid #251D9D;
+}
+.thumbs .card-description h2 {
+	text-align: center;
+	border-bottom: 1px dashed #ccc;
+	font-size: 23px;
+	margin: 10px;
+}
+.card-description {
+	box-sizing: border-box;
+	padding: 0 5px;
+}
+.card-description p {
+	font-size: 12px;
+	text-align: center
+}
+
+
 /*mobile*/
 @media only screen and (max-width: 768px) {
 	.topofixo {
@@ -141,6 +187,21 @@ menu-footer {
 		position: relative;
 		top: 0;
 		width: 100%;
+	}
+	.js #menu2 {
+		display:none;
+	}
+	
+	.js .slicknav_menu {
+		display:block;
+	}
+	.thumbs {
+		margin-bottom: 10px;
+	}
+	.logo {
+		width: 100%;
+		text-align: center;
+		margin: 10px 0;
 	}
 }
 /*mobile*/
