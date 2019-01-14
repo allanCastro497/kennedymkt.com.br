@@ -13,7 +13,7 @@
 	</div>
 	<div class="container">
 		<div class="logo float-left">
-			<img src="<?=$url?>imagens/logo.png" alt="Logo do site" title="Logo do site">
+			<a href="<?=$url?>" title="Voltar a página inicial"><img src="<?=$url?>imagens/logo.png" alt="<?=$nomeSite?>" title="<?=$nomeSite?>"></a>
 		</div>
 		<div class="topofixo">
 			<?php include('inc/menu-top.php'); ?>

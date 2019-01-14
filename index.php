@@ -1,17 +1,21 @@
 <?
 $h1         = 'Desenvolva plus';
-$title      = 'Desenvolva plus';
+$title      = 'Home';
 $desc       = 'Desenvolva plus, aqui nossos foco não é postar mensagens de motivação, até por quê a motivação vem de dentro de cada um, apenas mostraremos algumas verdades.';
 $key        = 'uuuuuuuuuu, jjjjjjjjjjjj, lllllllllll';
 $var        = 'Desenvolva plus';
 include('inc/head.php');
 ?>
-
 </head>
 <body>
 <? include('inc/topo.php'); ?>
 <div class="bg-home">
-	<div class="bg-darken"></div>
+	<div class="bg-darken">
+		<div class="flex-home">
+			<h2 class="white align-text-center">Cadastre-se para receber conteúdos exclusivos</h2>
+			<?php include('inc/newsletter.php'); ?>
+		</div>
+	</div>
 </div>
 <main>
 	<section>
@@ -50,15 +54,40 @@ include('inc/head.php');
 					</div>
 				</div>
 			</div>
-		</article>
-	</section>
-	<section>
-		<article>
-			<div class="bg-crescimento">	
+			<div class="bg-crescimento">
 				<div class="bg-orange">
 					<h2 class="align-text-center">Invista em você!</h2>
 					<p class="align-text-center">Só existe uma forma de sucesso - Poder viver a vida do seu jeito.</p>
 					<cite class="align-text-center">Christopher Morley</cite>
+				</div>
+			</div>
+			<div class="bg-gray">
+				<div class="container">
+					<h2 class="align-text-center">Com os nossos Ebooks você aprenderá:</h2>
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-12 list-center">
+							<ul class="items-ebook">
+								<li>Autoconhecimento</li>
+								<li>Realização pessoal e profissional</li>
+								<li>Planejamento pessoal</li>
+								<li>Administração do tempo</li>
+								<li>Comunicação interpessoal</li>
+								<li>Relacionamento humano</li>
+								<li>Qualidade de vida</li>
+							</ul>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 list-center">
+							<ul class="items-ebook">
+								<li>Empreendedorismo</li>
+								<li>Poder mental</li>
+								<li>Liderança</li>
+								<li>Motivação</li>
+								<li>Produtividade</li>
+								<li>Educação financeira</li>
+								<li>Marketing pessoal</li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
 		</article>
