@@ -24,11 +24,15 @@ define('RAIZ', $url);
 define('HTACCESS', $urlhtaccess);
 include('inc/gerador-htaccess.php');
 $breadcrumb			= '
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="'.$url.'">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Data</li>
-  </ol>
-</nav>
+<div class="bg-orange-bread">
+	<div class="container">
+		<nav aria-label="breadcrumb">
+		  <ol class="breadcrumb">
+		    <li class="breadcrumb-item"><a href="'.$url.'">Home</a></li>
+		    <li class="breadcrumb-item active" aria-current="page">'.$h1.'</li>
+		  </ol>
+		</nav>
+	</div>
+</div>
 ';
 ?>

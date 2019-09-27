@@ -34,11 +34,11 @@
 
       
 
-        RewriteCond %{http_host} ^localhost/kennedymkt.com.br [NC]
+        RewriteCond %{http_host} ^localhost/desenvolvaplus.com.br [NC]
 
-        RewriteRule ^(.*)$ http://localhost/kennedymkt.com.br/$1 [r=301,NC]
+        RewriteRule ^(.*)$ http://localhost/desenvolvaplus.com.br/$1 [r=301,NC]
 
-        RewriteRule ^index.php$ http://localhost/kennedymkt.com.br/ [r=301,NC,L]
+        RewriteRule ^index.php$ http://localhost/desenvolvaplus.com.br/ [r=301,NC,L]
 
 
 
@@ -52,7 +52,7 @@
 
         #redirects 
 
-        #redirect 301 /produto http://localhost/kennedymkt.com.br/produtos
+        #redirect 301 /produto http://localhost/desenvolvaplus.com.br/produtos
 
         
 
@@ -62,13 +62,13 @@
 
     # Exibe página não encontrada se url não existir
 
-    errordocument 404 http://localhost/kennedymkt.com.br/404
+    errordocument 404 http://localhost/desenvolvaplus.com.br/404
 
 
 
     # Redireciona erro 403 para página 404
 
-    errordocument 403 http://localhost/kennedymkt.com.br/404
+    errordocument 403 http://localhost/desenvolvaplus.com.br/404
 
 
 

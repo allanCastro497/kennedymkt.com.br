@@ -44,6 +44,7 @@ body {
 }
 h1, h2 {
 	margin: 10px 0 !important;
+	text-transform: uppercase;
 }
 .bolder {
 	font-weight: bold;
@@ -54,9 +55,9 @@ ul, ol {
 .white {
 	color: #fff;
 }
-.breadcrumb {
+/*.breadcrumb {
 	background-color: #fff !important;
-}
+}*/
 /*custom rules*/
 /*Topo*/
 header {
@@ -97,6 +98,35 @@ header {
 .bg-darken {
 	background: rgba(0,0,0,0.4);
 }
+/*Breadcrumb*/
+.bg-orange-bread {
+	background: #ea7a37;
+	box-sizing: border-box;
+	padding: 10px 25px;
+}
+/*modifica bread*/
+.bg-orange-bread ol.breadcrumb {
+	background: none !important;
+	color: #fff !important;
+	padding: 0;
+	margin: 5px 0;
+}
+.bg-orange-bread ol.breadcrumb li {
+	color: #fff;
+	font-size: 13px;
+}
+.bg-orange-bread ol.breadcrumb li.breadcrumb-item a {
+	color: #fff;
+}
+.bg-orange-bread ol.breadcrumb li.breadcrumb-item.active {
+	color: #fff;
+	font-weight: bold !important;
+	font-size: 15px;
+}
+.bg-orange-bread ol.breadcrumb li.breadcrumb-item.active::before {
+	color: #fff !important;
+}
+/*Fim Breadcrumb*/
 /*menu*/
 .menu2 {
 	list-style: none;
@@ -241,7 +271,12 @@ menu-footer {
 .no-border-radius {
 	border-radius: 0px !important;
 }
-
+/*Contato*/
+textarea.message-contact {
+	width: 100%;
+	height: 200px;
+	border-color: #ccc; 
+}
 
 /*mobile*/
 @media only screen and (max-width: 768px) {

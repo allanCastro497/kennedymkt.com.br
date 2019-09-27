@@ -63,7 +63,7 @@ include('inc/head.php');
 			</div>
 			<div class="bg-gray">
 				<div class="container">
-					<h2 class="align-text-center">Com os nossos Ebooks você aprenderá:</h2>
+					<h2 class="align-text-center">Aqui você aprenderá:</h2>
 					<div class="row">
 						<div class="col-lg-6 col-md-6 col-sm-12 list-center">
 							<ul class="items-ebook">

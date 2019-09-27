@@ -11,10 +11,10 @@ include('inc/head.php');
 <? include('inc/topo.php');?>
 <div class="wrapper">
     <main>
+        <?=$breadcrumb ?>
         <div class="container-fluid">
             <section>
                 <div class="container">
-                    <?=$breadcrumb ?>
                     <h1><?=$h1?></h1>
                     <article>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae minima, suscipit quibusdam sint delectus veritatis. Nisi dolorem culpa iure et, a vero ut quo ducimus sint, quam, debitis ipsa. Sint.</p>
